@@ -1,3 +1,6 @@
+# Add EventListenter (addEventListener)
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +23,13 @@
 </body>
 </html>
 
+```
 
-
-<!-- Every time the user clicks, the new
+Every time the user clicks, the new
 event will be added, and inside this event, we have the doSomething() function, a callback function.
 The callback function doSomething is very simple. It will only console log the element that triggered that specific
 event. The output should be the same HTML5 button tag because ‘e.target’ will get us the target:
-<button id='calculate' class='calculate'>Calculate</button> -->
+
+```
+<button id='calculate' class='calculate'>Calculate</button>
+```

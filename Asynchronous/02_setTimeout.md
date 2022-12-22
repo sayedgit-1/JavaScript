@@ -1,6 +1,16 @@
-<!-- setTimeout(code[, delay]); -->
-<!-- the first argument is a function, and the second argument is the delay timer measured in milliseconds -->
+# setTimeout
 
+- syntax :
+
+  ```
+      setTimeout(code[, delay]);
+  ```
+
+- the first argument is a function, and the second argument is the delay timer measured in milliseconds
+
+Example :
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,3 +35,4 @@
     setTimeout(displayResult1,1000)
     setTimeout(displayResult2,5000)
 </script>
+```
