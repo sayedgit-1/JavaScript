@@ -1,4 +1,4 @@
-# Promise
+# Promise // we laen to construct promises
 
 ## A Promise is an object that represents the result of an asynchronous operation
 
@@ -10,7 +10,10 @@ let promise = new Promise(function (resolve, reject) {
 });
 ```
 
-- the new keyword and call of the Promise constructor
+- the Promise is created using the new keyword and call of the Promise constructor
+- When we
+  have a new Promise created, the executor function will run automatically. In this function, we have two arguments
+  called resolve and reject. These are callbacks or handlers for success and failure outcomes.
 
 ### Example of resolev and reject :
 
